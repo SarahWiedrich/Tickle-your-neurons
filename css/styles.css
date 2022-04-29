@@ -1,0 +1,156 @@
+/*page color*/
+:root {
+    background-image: linear-gradient(#845EC2, #009EFA, #00D2FC, #4FFBDF);
+    height: 100%;
+    font-size: 62.5%;
+}
+/*all font style*/
+* {
+    /* box-sizing: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0;
+    padding: 0;
+    color: #282c33; */
+}
+
+main{
+    margin: 4rem, 8rem, 8rem, 8rem;
+}
+
+h1{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    font-size: 6rem;
+    text-shadow:1px 0px rgb(238, 238, 238), 0px 1px #ccc,
+               2px 1px #eee, 1px 2px #ccc,
+               3px 2px #eee, 2px 3px #ccc,
+               4px 3px #eee, 3px 4px #ccc,
+               5px 4px #eee, 4px 5px #ccc,
+               6px 5px #eee;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#question{
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    font-size: 3.5rem;
+}
+/*buttons*/
+.btnGreen{
+    background-color: green;
+}
+
+.btnRed{
+    background-color: red;
+}
+
+.btn{
+    border-width: 5.5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--btn-font-size, 2em);
+    color: var(--color-contrast-medium);
+    padding: .2em;
+    /* padding: var(--space-xs) var(--space-md); */
+    cursor: pointer;
+    transition: color .2s;
+    margin: 1rem;
+    width: 40rem;
+}
+
+.btn:hover{
+    color: var(--color-contrast-high);
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1.5rem 0 rgba(66, 7, 128, 0.5);
+} 
+
+.choices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 8rem;
+    margin-top: 2rem;
+}
+
+#question-counter{
+    display: block;
+    float: left;
+    width: 50px;
+    min-height: 45px;
+    font-size: 4.5em;
+    line-height: 0.9em;
+    padding: 0px;
+    margin-right: 5px;
+    text-align: right;
+}
+
+
+#sup {
+    font-size: 2.5rem;
+    color: rgb(76, 76, 76);
+}
+
+#score-box {
+    display: block;
+    float: right;
+    min-width: 40px;
+    max-height: 49px;
+    text-align: center;
+    font-size: 2em;
+    margin-left: 3px;
+    overflow: visible;
+    z-index: 10;
+    padding-right: 2em;
+}
+
+#score {
+    height: 1.8em;
+    width: 1.8em;
+    font-size: 1.8em;
+    padding: 4px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8em;
+    background-color: #6a3bb6;
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+#points {
+    font-size: 1em;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: rgb(77, 76, 76);
+    text-shadow: 0px 0px 5px #cdcbd6;
+}
+
+#brain-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#audio {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6em;
+    padding-right: 14em;
+}
