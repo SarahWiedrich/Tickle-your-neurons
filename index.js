@@ -182,23 +182,6 @@ choices.forEach(choice => {
             },2000)          
         } else {
             choice.classList.add('btnRed');
-
-            // let rightAnswer = currentQuestion.answer;
-            // if(rightAnswer == 'correct'){
-            //     choice.classList.add('btnGreen');  
-            //     setTimeout(() =>{
-            //         choice.classList.remove('btnGreen'); 
-            //     },2000)
-
-            // let rightAnswer = currentQuestion.answer;
-            // currentQuestion.answer = rightAnswer.dataset['number'];
-            // rightAnswer.classList.add('btnGreen');
-
-            // let rightAnswer = currentQuestion.answer
-            // rightAnswer.classList.add('btnGreen');
-
-            // answer.classList.add('btnGreen');
-            // currentQuestion.answer.classList.add('btnGreen');
             setTimeout(() =>{
                 choice.classList.remove('btnRed');
             },2000)          
@@ -209,12 +192,3 @@ choices.forEach(choice => {
         },2000)
     });
 });
-
-// //audio//
-// let isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-// if (!isChrome){
-//     $('#iframeAudio').remove()
-// }
-// else {
-//     $('#playAudio').remove()
-// }
