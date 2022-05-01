@@ -35,7 +35,7 @@ let questions = [
     },
 
     {
-        question: "Which is NOT true about BOTH Hamlet and Scooby Doo?",
+        question: "Which is >> NOT << true about BOTH Hamlet and Scooby Doo?",
         choice1: "they both spent a lot of time in castles",
         choice2: "they both knew someone named Daphne",
         choice3: "they both saw ghosts",
@@ -172,6 +172,7 @@ choices.forEach(choice => {
             checkAnswer = 'correct';
         }
         console.log(checkAnswer);
+
         //incriments score when answered correctly and changes button color//
         if(checkAnswer == 'correct'){
             score++

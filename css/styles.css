@@ -6,17 +6,14 @@
 }
 /*all font style*/
 * {
-    /* box-sizing: border-box; */
     font-family: Arial, Helvetica, sans-serif;
-    /* margin: 0;
-    padding: 0;
-    color: #282c33; */
 }
 
 main{
     margin: 4rem, 8rem, 8rem, 8rem;
 }
 
+/* Tickle you neurons 3D styleing of text */
 h1{
     text-align: center;
     width: 50%;
@@ -37,8 +34,6 @@ h1{
 }
 
 #question{
-    /* display: flex;
-    flex-direction: row; */
     justify-content: center;
     align-items: center;
     width: 50%;
@@ -46,6 +41,7 @@ h1{
     padding: 2rem;
     font-size: 3.5rem;
 }
+
 /*buttons*/
 .btnGreen{
     background-color: green;
@@ -66,7 +62,6 @@ h1{
     font-size: var(--btn-font-size, 2em);
     color: var(--color-contrast-medium);
     padding: .2em;
-    /* padding: var(--space-xs) var(--space-md); */
     cursor: pointer;
     transition: color .2s;
     margin: 1rem;
@@ -87,6 +82,7 @@ h1{
     margin-top: 2rem;
 }
 
+/* question counter */
 #question-counter{
     display: block;
     float: left;
@@ -99,12 +95,12 @@ h1{
     text-align: right;
 }
 
-
 #sup {
     font-size: 2.5rem;
     color: rgb(76, 76, 76);
 }
 
+/* score container */
 #score-box {
     display: block;
     float: right;
@@ -132,7 +128,6 @@ h1{
     color: #fff;
 }
 
-
 #points {
     font-size: 1em;
     margin-left: 0px;
@@ -141,6 +136,7 @@ h1{
     text-shadow: 0px 0px 5px #cdcbd6;
 }
 
+/* image and audio containers */
 #brain-img{
     display: block;
     margin-left: auto;
