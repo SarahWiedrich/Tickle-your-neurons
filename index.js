@@ -53,7 +53,7 @@ let questions = [
     },
 
     {
-        question: "Which of the following would be most likely to hit a 'uvula?",
+        question: "Which of the following would be most likely to hit a uvula?",
         choice1: "a broom handle",
         choice2: "a tongue depressor",
         choice3: "a Polish farmer",
@@ -83,8 +83,8 @@ let questions = [
         question: "What is a balck hole?",
         choice1: "a term for all Disney movies from the 70's",
         choice2: "a dead planet",
-        choice3: "a hole is space that has no gravity",
-        choice4: "a collapsed start so dense that only x-rays can escape its pull",
+        choice3: "a hole in space that has no gravity",
+        choice4: "a collapsed star so dense that only x-rays can escape its pull",
         answer: 4
     },
 
